@@ -1,6 +1,4 @@
-package com.company;
-
-public class Reader {
+public class Reader{
 
   public String comment() {
   return null;

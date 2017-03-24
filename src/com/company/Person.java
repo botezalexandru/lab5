@@ -1,8 +1,6 @@
-package com.company;
-
 public class Person {
 
-  private static Person p = new Person();
+  private Person p = new Person();
   private String name;
   private String account;
 
@@ -11,12 +9,8 @@ public class Person {
     this.account="";
   }
 
-  static Person getInstance(){
+  public Person getInstance(){
     return p;
-  }
-
-  public static void setP(Person p) {
-    Person.p = p;
   }
 
   public String getName() {

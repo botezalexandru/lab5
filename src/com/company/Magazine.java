@@ -1,18 +1,23 @@
-package com.company;
-
 import java.util.Vector;
 
 public class Magazine {
 
-  public Integer newAttr;
+  public String nume;
+
+  public String editor;
 
     /**
    * 
    * @element-type Editor
    */
   public Vector  myEditor;
+    /**
+   * 
+   * @element-type Arhiva
+   */
+  public Vector  myArhiva;
 
-  public void newOperation() {
+  private void Magazine() {
   }
 
 }
